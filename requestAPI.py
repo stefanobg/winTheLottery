@@ -84,6 +84,8 @@ class lotteryAPI(object):
         result += x
         if x != bet[len(bet) - 1]:
           result += ' - '
+        else:
+          result += '\n'
       return result
     else:
       print 'First you need to consume the API with some game.'
