@@ -70,13 +70,19 @@ Open ``winTheLottery.py``and insert **some or all of these lines** to collect di
 ```
 <br/>
 
-If you want to print all the raffles you need to insert this line after creating the ``lotteryAPI`` and before making a request:
+If you want to **print all the raffles** you need to insert this line after creating the ``lotteryAPI`` and before making a request:
 ```python
   lotteryAPI.enablePrint()
   lotteryAPI.disablePrint()
 ```
+<img src="https://github.com/stefanobg/winTheLottery/raw/readme/assets/RunningRaffles.gif">
 <br/>
 
+Making **how many bets you want**, changing ``N`` to the desired amount:
+```python
+  for i in xrange(N):
+    print goldenPot.makeABet(6, 60)
+```
 
 
 
