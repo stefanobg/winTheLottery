@@ -14,32 +14,38 @@ Basically, the script collects all the raffles already made and makes a conglome
 <br/>
 
 ## 🖥 Running the script
-1. First you need to be sure that you have **Python 2.7.x** or more installed.
+**1.** First you need to be sure that you have **Python 2.7.x** or more installed.
 - [Install Python on Mac OS X](https://docs.python-guide.org/starting/install/osx/)
 - [Install Python on Linux](https://docs.python-guide.org/starting/install/linux/)
 - [Install Python on Windows](https://docs.python-guide.org/starting/install/win/)
+<br/>
 
-2. After that, you need to install **PIP** to manage your packages.
+**2.** After that, you need to install **PIP** to manage your packages.
 - [Install PIP on Windows, Mac OS X and Linux](https://www.makeuseof.com/tag/install-pip-for-python/)
+<br/>
 
-3. Now that you have both **Python** and **PIP**, you can download the repositorie to the folder you want by opening your ``terminal`` and typing:
+**3.** Now that you have both **Python** and **PIP**, you can download the repositorie to the folder you want by opening your ``terminal`` and typing:
 ```sh
 $ git clone https://github.com/stefanobg/winTheLottery/
 ```
+<br/>
 
-4. Once you have it cloned, go there:
+**4.** Once you have it cloned, go there:
 ```sh
 $ cd winTheLottery
 ```
+<br/>
 
-5. Before running ``winTheLottery.py`` you need to refresh the **Token** inside it. So, go to the API page, by clicking [here](https://confiraloterias.com.br/api/megasena/) and copy the *authorized Token*:
+**5.** Before running ``winTheLottery.py`` you need to refresh the **Token** inside it. So, go to the API page, by clicking [here](https://confiraloterias.com.br/api/megasena/) and copy the *authorized Token*:
 <img src="https://github.com/stefanobg/winTheLottery/raw/readme/assets/TokenCopy.png">
+<br/>
 
-6. Now, paste it here, and keep in mind that you'll need to do it many times to not loose your access:
+**6.** Now, paste it here, and keep in mind that you'll need to do it many times to not loose your access:
 <br/>
 <img src="https://github.com/stefanobg/winTheLottery/raw/readme/assets/TokenPaste.png">
+<br/>
 
-7. With terminal open on the correct folder type:
+**7.** With terminal open on the correct folder type:
 ```sh
 $ python winTheLottery
 ```
